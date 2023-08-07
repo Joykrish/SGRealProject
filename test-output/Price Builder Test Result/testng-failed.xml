@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Price Builder Test Result]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Regression(failed)">
+    <classes>
+      <class name="Com.SPB.test.VerifyHomePage">
+        <methods>
+          <include name="method"/>
+          <include name="beforeClass"/>
+          <include name="report"/>
+          <include name="VerifyBenchMarkPriceImage"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- Com.SPB.test.VerifyHomePage -->
+      <class name="Com.SPB.test.FinancialOverview">
+        <methods>
+          <include name="verifyEMGPNonPercentage"/>
+          <include name="method"/>
+          <include name="VerifyProjectEM"/>
+          <include name="beforeClass"/>
+          <include name="report"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- Com.SPB.test.FinancialOverview -->
+      <class name="Com.SPB.test.Simulation">
+        <methods>
+          <include name="verifyDevCost"/>
+          <include name="method"/>
+          <include name="beforeClass"/>
+          <include name="report"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- Com.SPB.test.Simulation -->
+      <class name="Com.SPB.test.VerifyDraftProjectFlow">
+        <methods>
+          <include name="CreateDraftdraftproject"/>
+          <include name="method"/>
+          <include name="beforeClass"/>
+          <include name="report"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- Com.SPB.test.VerifyDraftProjectFlow -->
+      <class name="Com.SPB.test.ProjectIndicator">
+        <methods>
+          <include name="VerifyProjectIndicator"/>
+          <include name="method"/>
+          <include name="beforeClass"/>
+          <include name="report"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- Com.SPB.test.ProjectIndicator -->
+      <class name="Com.SPB.test.VerifyAdministration">
+        <methods>
+          <include name="method"/>
+          <include name="ActionDelete"/>
+          <include name="beforeClass"/>
+          <include name="ActionEdit"/>
+          <include name="AddUser"/>
+          <include name="report"/>
+          <include name="SearchUser"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- Com.SPB.test.VerifyAdministration -->
+      <class name="Com.SPB.test.VerifyCashSimulation">
+        <methods>
+          <include name="verifyDevCost"/>
+          <include name="verifyPBRNetPresentvalueREAL"/>
+          <include name="verifyQuantityPandL"/>
+          <include name="verifyCashflowProjectBeforeActualization"/>
+          <include name="method"/>
+          <include name="verifyCapex"/>
+          <include name="verifyBussinessLink"/>
+          <include name="verifyPBRNetPresentvalueCONTRACTUAL"/>
+          <include name="beforeClass"/>
+          <include name="VerifyQtyMarkupInternelandexternal"/>
+          <include name="verifyCashflowProjecCumulated"/>
+          <include name="report"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- Com.SPB.test.VerifyCashSimulation -->
+      <class name="Com.SPB.test.VerifyScenarioFunctions">
+        <methods>
+          <include name="method"/>
+          <include name="beforeClass"/>
+          <include name="report"/>
+          <include name="VerifyArchievescenario"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- Com.SPB.test.VerifyScenarioFunctions -->
+      <class name="Com.SPB.test.VerifyVersionCreation">
+        <methods>
+          <include name="VerifyVersionCreation"/>
+          <include name="method"/>
+          <include name="beforeClass"/>
+          <include name="report"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- Com.SPB.test.VerifyVersionCreation -->
+      <class name="Com.SPB.test.VerifyBundle">
+        <methods>
+          <include name="VerifyselectScenario"/>
+          <include name="method"/>
+          <include name="VerifyscenariosSelect"/>
+          <include name="beforeClass"/>
+          <include name="report"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- Com.SPB.test.VerifyBundle -->
+      <class name="Com.SPB.test.GlassPositionIndicator">
+        <methods>
+          <include name="method"/>
+          <include name="beforeClass"/>
+          <include name="verifyGlassPositionIndicators"/>
+          <include name="report"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- Com.SPB.test.GlassPositionIndicator -->
+    </classes>
+  </test> <!-- Regression(failed) -->
+</suite> <!-- Failed suite [Price Builder Test Result] -->

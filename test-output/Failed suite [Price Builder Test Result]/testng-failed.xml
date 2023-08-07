@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Failed suite [Price Builder Test Result]]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Regression(failed)(failed)">
+    <classes>
+      <class name="Com.SPB.test.VerifyScenarioFunctions">
+        <methods>
+          <include name="method"/>
+          <include name="beforeClass"/>
+          <include name="report"/>
+          <include name="VerifyArchievescenario"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- Com.SPB.test.VerifyScenarioFunctions -->
+      <class name="Com.SPB.test.VerifyBundle">
+        <methods>
+          <include name="method"/>
+          <include name="VerifyscenariosSelect"/>
+          <include name="beforeClass"/>
+          <include name="report"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- Com.SPB.test.VerifyBundle -->
+      <class name="Com.SPB.test.VerifyCashSimulation">
+        <methods>
+          <include name="verifyDevCost"/>
+          <include name="verifyPBRNetPresentvalueREAL"/>
+          <include name="verifyQuantityPandL"/>
+          <include name="verifyCashflowProjectBeforeActualization"/>
+          <include name="method"/>
+          <include name="verifyCapex"/>
+          <include name="verifyBussinessLink"/>
+          <include name="verifyPBRNetPresentvalueCONTRACTUAL"/>
+          <include name="beforeClass"/>
+          <include name="VerifyQtyMarkupInternelandexternal"/>
+          <include name="verifyCashflowProjecCumulated"/>
+          <include name="report"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- Com.SPB.test.VerifyCashSimulation -->
+      <class name="Com.SPB.test.VerifyVersionCreation">
+        <methods>
+          <include name="VerifyVersionCreation"/>
+          <include name="method"/>
+          <include name="beforeClass"/>
+          <include name="report"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- Com.SPB.test.VerifyVersionCreation -->
+      <class name="Com.SPB.test.Simulation">
+        <methods>
+          <include name="verifyDevCost"/>
+          <include name="method"/>
+          <include name="beforeClass"/>
+          <include name="report"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- Com.SPB.test.Simulation -->
+    </classes>
+  </test> <!-- Regression(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [Price Builder Test Result]] -->

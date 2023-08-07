@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Price Builder Test Result">
+	<test name="Regression">
+		<classes>
+			<class name="Com.SPB.test.VeirfyLogin"/>
+			<class name="Com.SPB.test.VerifySearchProject" />
+			<class name="Com.SPB.test.ProjectIndicator" />
+			<class name="Com.SPB.test.GlassPositionIndicator" />
+			<class name="Com.SPB.test.VerifyDraftProjectFlow" />
+			<class name="Com.SPB.test.ExcelOptions" />
+			<class name="Com.SPB.test.MarketingGuideLines" />
+								
+			<class name="Com.SPB.test.VerifyValidation">
+				<methods>
+					<include name="verifyOpenButtonMyPending" />
+					<include name="verifyOpenButtonAllProject" />
+				</methods>
+			</class>
+			<class name="Com.SPB.test.VerifyMyRFQ" />
+			<class name="Com.SPB.test.VerifyHomePage">
+				<methods>
+					<include name="VerifyNewRFQImage" />
+					<include name="VerifyMyRFQImage" />
+					<include name="VerifyValidationImage" />
+					<include name="VerifyBenchMarkPriceImage" />
+					<include name="VerifyAdminImage" />
+				</methods>
+			</class>
+			<class name="Com.SPB.test.VerifyVersionCreation" />
+			<class name="Com.SPB.test.VerifyScenarioFunctions">
+				<methods>
+					<include name="VerifyAddScenario" />
+					<include name="VerifyRenameScenario" />
+					<include name="VerifyArchievescenario" />
+				</methods>
+			</class>
+			<class name="Com.SPB.test.VerifyBundle">
+				<methods>
+					<include name="openbundlelistVerify" />
+					<include name="BundlelistVerify" />
+					<include name="BundleCreation" />
+					<include name="OpenBundle" />
+					<include name="BundleActionEdit" />
+					<include name="VerifyselectScenario"/>
+					<include name="VerifyscenariosSelect" />
+					<include name="BundleActionDelete" />
+				</methods>
+			</class>
+			
+			<class name="Com.SPB.test.Simulation">
+				<methods>
+					<include name="verifyYearlyQuantity" />
+					<include name="verifyCommonSurface" />
+					<include name="verifyPNV" />
+					<include name="verifyQuotedPrice" />
+					<include name="verifyAddedValue" />
+					<include name="verifyTotalCost" />
+					<include name="externalMarkupyears" />
+					<include name="verifyMVCPercent" />
+					<include name="verifyRBCPercent" />
+					<include name="verifyDevCost" />
+					<include name="verifyDevrev" />
+					<include name="VerifyPBR" />
+				</methods>
+			</class>
+			
+			<class name="Com.SPB.test.FinancialOverview">
+				<methods>
+					<include name="verifyPricePce" />
+					<include name="verifyVolume" />
+					<include name="verifyAddedValue" />
+					<include name="verifyY1" />
+					<include name="VerifyProjectMVC" />
+					<include name="verifyMVCGPNonPercentage" />
+					<include name="VerifyProjectMVC" />
+					<include name="VerifyProjectRBC" />
+					<include name="verifyRBCGPNonPercentage" />
+					<include name="verifyRBEGPNonPercentage" />
+					<include name="VerifyProjectEM" />
+					<include name="verifyEMGPNonPercentage" />
+				</methods>
+			</class>
+			<class name="Com.SPB.test.VerifyAdministration">
+				<methods>
+					<include name="AddUser" />
+					<include name="SearchUser" />
+					<include name="ActionEdit" />
+					<include name="ActionDelete" />
+				</methods>
+			</class>
+			
+			<class name="Com.SPB.test.VerifyCashSimulation">
+				<methods>
+					<include name="verifyCashSimulationRedirection" />
+					<include name="verifyFinancialfollowupRedirection" />
+					<include name="verifyPandLCarproduction" />
+					<include name="verifyQuantityPandL" />
+					<include name="verifyQuotedPrice" />
+					<include name="verifytakerate" />
+					<include name="verifyQuotedPrice" />
+					<include name="verifyRBEPERCENT" />
+					<include name="VerifyPNV2022" />
+					<include name="verifyRBEvalue" />
+					<include name="totalCashPRiceBeforeWCR" />
+					<include name="verifyTotalCashflowafterWCR" />
+					<include name="VerifyWCR" />
+					<include name="totalCashPRiceBeforeWCR" />
+					<include name="verifyTotalCashflowafterWCR" />
+					<include name="VerifyWCR" />
+					<include name="verifyBussinessLink" />
+					<include name="verifyCapex" />
+					<include name="verifyDevCost" />
+					<include name="verifyDevelopmentRevenueLumpSum" />
+					<include name="VerifyQtyMarkupInternelandexternal" />
+					<include name="VerifycostCashforOEM" />
+					<include name="verifyCashflowProjectBeforeActualization" />
+					<include name="verifyCashflowProjecCumulated" />
+					<include name="verifyPBRNetPresentvalueCONTRACTUAL" />
+					<include name="verifyPBRNetPresentvalueREAL" />
+					<include name="verifyCashflowProjectBeforeActualization" />
+					</methods>
+			</class>
+			
+			
+			
+			
+		</classes>
+
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
